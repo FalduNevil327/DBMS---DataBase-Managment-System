@@ -1,0 +1,31 @@
+create database BANK_INFO
+
+create table DEPOSIT(
+	ACTNO INT,
+	CNAME VARCHAR(50),
+	BNAME VARCHAR(50),
+	AMOUNT DECIMAL(8,2),
+	ADATE DATETIME
+
+)
+
+create table BRANCH(
+	BNAME VARCHAR(50),
+	CITY VARCHAR(50),
+
+)
+
+create table CUSTOMERS(
+	CNAME VARCHAR(50),
+	CITY VARCHAR(50),
+
+)
+
+create table BORROW(
+	LOANNO INT,
+	CNAME VARCHAR(50),
+	BNAME VARCHAR(50),
+	AMOUNT DECIMAL(8,2),
+
+)
+
